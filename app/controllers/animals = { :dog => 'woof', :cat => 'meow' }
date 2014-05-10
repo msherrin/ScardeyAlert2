@@ -1,0 +1,6 @@
+animals = { :dog => 'woof', :cat => 'meow' }
+animals[:dog]  
+#=> 'woof'
+
+params = { controller => "Apartments", :id => 3 }
+params[:id]

@@ -1,5 +1,4 @@
-<h1>All Posts</h1>
-  <%= link_to "New Post", new_post_path, class: 'btn btn-success' %>
+<h1>Archives</h1>
   
   <% @posts.each do |post| %>
     <%= post.user.name %>
@@ -17,4 +16,3 @@
       </div>
     </div>
 <% end %>
-
